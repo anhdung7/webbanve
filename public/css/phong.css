@@ -1,0 +1,277 @@
+#manhinh{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  width: 1000px;
+  background:#ebf5fc;
+  font-size: 30px;
+}
+
+.manhinh{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:20vh;
+  background: #2196f3;
+}
+
+#manhinhlon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  width: 1300px;
+  background:#ebf5fc;
+  font-size: 30px;
+}
+
+.manhinhlon{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:20vh;
+  background: #2196f3;
+}
+
+.bodyphong {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:95vh;
+  background: #2196f3;
+}
+
+.bodyphong ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  width: 800px;
+  background:#ebf5fc;
+}
+
+.bodyphong li{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.bodyphong label{
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]{
+  position: absolute;
+  opacity: 0;
+}
+
+input:checked ~ .icon-box{
+  background: #f7ff08;
+  box-shadow: inset -2px -2px 5px rgba(255,255,255,1),inset 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.vedat{
+  width: 60px;
+  height: 60px;
+  background: #BBFF33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px -2px 5px rgba(255,255,255,1), 3px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.vedat i{
+  font-size: 30px;
+  color: #2196f3;
+  transform: scale(0.95);
+}
+
+.vemua{
+  width: 60px;
+  height: 60px;
+  background: #FFB3BF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px -2px 5px rgba(255,255,255,1), 3px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.vemua i{
+  font-size: 30px;
+  color: #2196f3;
+  transform: scale(0.95);
+}
+
+.icon-box{
+  width: 60px;
+  height: 60px;
+  background: #ebf5fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px -2px 5px rgba(255,255,255,1), 3px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.icon-box i{
+  font-size: 30px;
+  color: #2196f3;
+  transform: scale(0.95);
+}
+
+/*phong 1 day*/
+.bodyphong1day {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:95vh;
+  background: #2196f3;
+}
+
+.bodyphong1day ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  background:#ebf5fc;
+}
+
+.bodyphong1day li{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.bodyphong1day label{
+  position: relative;
+  cursor: pointer;
+}
+
+/*phong 3 day*/
+.bodyphong2day {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:130vh;
+  background: #2196f3;
+}
+
+.bodyphong2day ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  width: 800px;
+  background:#ebf5fc;
+  margin-top: 10px;
+}
+
+.bodyphong2day .dayngoailon{
+  margin-top: -90px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.bodyphong2day .dayngoai{
+  width: 220px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.bodyphong2day li{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.bodyphong2day label{
+  position: relative;
+  cursor: pointer;
+}
+
+/*phong 3 day*/
+.bodyphong3day {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:130vh;
+  background: #2196f3;
+}
+
+.bodyphong3day ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding:20px;
+  width: 800px;
+  background:#ebf5fc;
+  margin-top: 10px;
+}
+
+.bodyphong3day .dayngoailon{
+  margin-top: -90px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bodyphong3day .dayngoai{
+  width: 220px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.bodyphong3day li{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.bodyphong3day label{
+  position: relative;
+  cursor: pointer;
+}
+
